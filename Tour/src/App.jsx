@@ -17,6 +17,7 @@ const App = () => {
        setTour(newTour);
     console.log(newTour)
   }
+
   const fetchTour = async ()=>{
     setIsLoading(true)
     try {
